@@ -1,7 +1,18 @@
 # Exercise 5: Calculator
 
-Write a program that ask the user which operator they want to do and the operands they want to use, and then computes the result.
-The program should keep asking for new operators until the user cancel the question about the operation, or types "exit" when asked about which operator to use.
+Write a program that
+
+ask the user which operator they want
+
+and the operands they want to use,
+
+and then computes the result.
+
+keep asking for new operators
+
+until the user cancels the question about the operation
+
+or type "exit" when asked about which operator to use.
 
 ## Requirements
 
@@ -13,7 +24,9 @@ The program should keep asking for new operators until the user cancel the quest
 1. Ask user to choose between operators. Example:
 
 ```js
-"Which operation do you want to do? Type one of these: +, -, *, / or type exit to leave. You can also leave by cancelling the prompt"`
+"Which operation do you want to do? Type one of these: +, -, *, /
+
+or type exit to leave. You can also leave by cancelling the prompt"`
 ```
 
 2. If the user typed `exit` or the user cancelled the prompt, then finish.
