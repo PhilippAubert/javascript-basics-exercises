@@ -1,4 +1,7 @@
-const yourName = prompt(`What's your name?`);
-console.log(yourName);
+let visitorName = prompt("Welcome, Stranger. Enter Your Name");
 
-alert("Hello Dear");
+if (visitorName === "" || visitorName === null) {
+  prompt("Not a name. Try again");
+} else {
+  alert(`Welcome, ${visitorName}`);
+}
