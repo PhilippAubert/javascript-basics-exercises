@@ -27,3 +27,5 @@ if (check === true) {
 } else {
   alert(`You're too young for this ${name}`);
 }
+
+// how to embedd a confirm within other if/else statements?

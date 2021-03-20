@@ -28,19 +28,19 @@
 // while (i < 100) {
 //     console.log(i);
 //     i = i +1;
-// }
+// // }
 
-let name = prompt("Give me your name!");
+// let name = prompt("Give me your name!");
 
 // while the name is empty or null, keep asking!
 
-while (name === "" || name === null) {
-  name = prompt("Incorrect name. Give me your real name!");
-}
+// while (name === "" || name === null) {
+//   name = prompt("Incorrect name. Give me your real name!");
+// }
 
-for (let i = 0; i < 100; i++) {
-  console.log(i);
-}
+// for (let i = 0; i < 100; i++) {
+//   console.log(i);
+// }
 
 // alert("Welcome, User");
 
@@ -84,42 +84,42 @@ for (let i = 0; i < 100; i++) {
 //   }
 // }
 
-let greeting = alert("Welcome, Stranger");
-let name = prompt("Type in a name");
-let birth = prompt(`Type in your birthyear, ${name}`);
-let age;
-let adult;
+// let greeting = alert("Welcome, Stranger");
+// let name = prompt("Type in a name");
+// let birth = prompt(`Type in your birthyear, ${name}`);
+// let age;
+// let adult;
 
-if (birth === "") {
-  let birth = 2021;
-} else {
-  let age = 2021 - birth;
-}
+// if (birth === "") {
+//   let birth = 2021;
+// } else {
+//   let age = 2021 - birth;
+// }
 
-if (age < 10) {
-  alert(`You are too young for this, kid ${name}`);
-} else if ((age) => 10 || age < 18) {
-  let adult = confirm(
-    `Welcome to my user site, ${name}. Are you with an adult?`
-  );
-  if (adult === true) {
-    alert(
-      `Welcome to my super website ${name}. Good, that you are not alone here!`
-    );
-  } else {
-    alert("You are too young for this, kid");
-  }
-} else if (age === 40) {
-  alert(`You are of my age, ${name}!`);
-} else {
-  alert(`Welcome to my site, ${name}`);
-}
+// if (age < 10) {
+//   alert(`You are too young for this, kid ${name}`);
+// } else if ((age) => 10 || age < 18) {
+//   let adult = confirm(
+//     `Welcome to my user site, ${name}. Are you with an adult?`
+//   );
+//   if (adult === true) {
+//     alert(
+//       `Welcome to my super website ${name}. Good, that you are not alone here!`
+//     );
+//   } else {
+//     alert("You are too young for this, kid");
+//   }
+// } else if (age === 40) {
+//   alert(`You are of my age, ${name}!`);
+// } else {
+//   alert(`Welcome to my site, ${name}`);
+// }
 
-let adult = confirm(`Welcome to my user site, ${name}. Are you with an adult?`);
-if (adult === true) {
-  alert(
-    `Welcome to my super website ${name}. Good, that you are not alone here!`
-  );
-} else {
-  alert("You are too young for this, kid");
-}
+// let adult = confirm(`Welcome to my user site, ${name}. Are you with an adult?`);
+// if (adult === true) {
+//   alert(
+//     `Welcome to my super website ${name}. Good, that you are not alone here!`
+//   );
+// } else {
+//   alert("You are too young for this, kid");
+// }
